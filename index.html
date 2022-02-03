@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>www.foobar.com</title>
-</head>
-<body>
-<h1> An Actual form! </h1>
-<form id = "form1">
-  <label for="fname">First name:</label><br>
-  <input type="text" name="fname" value="John" required><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form>
+  <head>
+    <title>www.foobar.com</title>
+  </head>
+  <body>
+    <h1>An Actual form!</h1>
+    <form id="form1">
+      <label for="fname">First name:</label><br />
+      <input type="text" name="fname" value="John" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
 
-<h1>Divs that are supposed to be forms, see the formIDs hint </h1>
-<div id = "form2">
-  <label for="fname">First name:</label><br>
-  <input type="text" name="fname" value="John" required><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</div>
+    <h1>Divs that are supposed to be forms, see the formIDs hint</h1>
+    <div id="form2">
+      <label for="fname">First name:</label><br />
+      <input type="text" name="fname" value="John" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </div>
 
-<h1>Same as the scenario above but new ID </h1>
-<div id = "form3">
-  <label for="fname">First name:</label><br>
-  <input type="text" name="fname" value="John" required><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</div>
+    <h1>Same as the scenario above but new ID</h1>
+    <div id="form3">
+      <label for="fname">First name:</label><br />
+      <input type="text" name="fname" value="John" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </div>
 
-<h1>Divs that are supposed to be forms, see the formClassNames hint </h1>
-<div class='form4'>
-  <label for="fname">First name:</label><br>
-  <input type="text" name="fname" value="John" required><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</div>
+    <h1>Divs that are supposed to be forms, see the formClassNames hint</h1>
+    <div class="form4">
+      <label for="fname">First name:</label><br />
+      <input type="text" name="fname" value="John" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </div>
 
-<h1> Has the same class name as the one above, both should get processed </h1>
-<div class='form4'>
-  <label for="fname">First name:</label><br>
-  <input type="text" name="fname" value="John" required><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</div>
+    <h1>Has the same class name as the one above, both should get processed</h1>
+    <div class="form4">
+      <label for="fname">First name:</label><br />
+      <input type="text" name="fname" value="John" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </div>
 
-<h1>Same as the two forms above, but new class name </h1>
-<div class='form5'>
-  <label for="fname">First name:</label><br>
-  <input type="text" name="fname" value="John" required><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</div>
+    <h1>Same as the two forms above, but new class name</h1>
+    <div class="form5">
+      <label for="fname">First name:</label><br />
+      <input type="text" name="fname" value="John" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </div>
 
-<h1>This one doesn't use the class or form names, it needs the number of forms and number of fields which are configured for this case below</h1>
-<div>
-  <label for="fname">First name:</label><br>
-  <input type="text" name="fname" value="John" required><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</div>
+    <h1>
+      This one doesn't use the class or form names, it needs the number of forms
+      and number of fields which are configured for this case below
+    </h1>
+    <div>
+      <label for="fname">First name:</label><br />
+      <input type="text" name="fname" value="John" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </div>
 
-<!--
+    <!--
 <script type="text/javascript"> 
  
 	// Use these parameters for tracking form submissions on pages that don't follow typical web form implementation like form tags, submit buttons, or are used by callbacks from web form solution providers such as HubSpot or Marketo.
@@ -87,15 +90,28 @@
 	}; 
 </script> -->
 
-  <script type="text/javascript">
-(window.referralJS ??= {}).scriptConfig = {
-	parameters: {
-		src: "//tyratesting.staging02-rr.com/sdk/referral.js",
-			transactionKey: "67ac1f11-11b3-48c0-89ff-e5f7e9775341"
-	}
-	};
-	(function (f, r, n, d, b, y) { b = f.createElement(r), y = f.getElementsByTagName(r)[0]; b.async = 1; b.src = n; b.id = 'RR_DIVID'; b.setAttribute("transactionKey", window.referralJS.scriptConfig.parameters.transactionKey); y.parentNode.insertBefore(b, y); })(document, 'script', window.referralJS.scriptConfig.parameters.src);
-</script>
-
-</body>
+    <script type="text/javascript">
+      window.referralJS =
+        window.referralJS !== null && window.referralJS !== undefined
+          ? window.referralJS
+          : {};
+      window.referralJS.scriptConfig = {
+        parameters: {
+          src: "//tyratesting.staging02-rr.com/sdk/referral.js",
+          transactionKey: "67ac1f11-11b3-48c0-89ff-e5f7e9775341",
+        },
+      };
+      (function (f, r, n, d, b, y) {
+        (b = f.createElement(r)), (y = f.getElementsByTagName(r)[0]);
+        b.async = 1;
+        b.src = n;
+        b.id = "RR_DIVID_V4";
+        b.setAttribute(
+          "transactionKey",
+          window.referralJS.scriptConfig.parameters.transactionKey
+        );
+        y.parentNode.insertBefore(b, y);
+      })(document, "script", window.referralJS.scriptConfig.parameters.src);
+    </script>
+  </body>
 </html>
